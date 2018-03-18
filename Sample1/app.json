@@ -1,0 +1,23 @@
+{
+  "id": "9dfb2e73-4959-4f42-ae58-3c888b2a316d",
+  "name": "Sample1",
+  "publisher": "dvlpr-life",
+  "brief": "AL language code sample",
+  "description": "Add a class field,and source tables, to the Customer and Vendor.",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "http://www.dvlpr-live.com",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 50100,
+    "to": 50149
+  }
+}
