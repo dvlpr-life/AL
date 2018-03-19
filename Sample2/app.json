@@ -1,0 +1,23 @@
+{
+  "id": "dcc44daf-8c0d-4c1f-beb1-be14bccedc4d",
+  "name": "Sample2",
+  "publisher": "dvlpr-life",
+  "brief": "AL language code sample",
+  "description": "Subscribe to field events on the Customer and Vendor; TextConstants, ML, Options, Actions",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "https://github.com/dvlpr-life/AL",
+  "logo": "./images/IMG_3654.png",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "11.0.0.0",
+  "application": "11.0.0.0",
+  "idRange": {
+    "from": 50200,
+    "to": 50249
+  }
+}
