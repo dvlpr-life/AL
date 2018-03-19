@@ -15,7 +15,7 @@ pageextension 50201 CustomerListPageExt extends "Customer List"
                     Image = Card;
                     Promoted = false;
                     RunObject = page 50200;
-                    //RunPageLink = Type = const(Customer),"No."=field("No.");
+                    RunPageLink = Type = const(Customer),"No."=field("No.");
                     RunPageOnRec = false;
                     ToolTipML = ENU = 'Show the name change log entries.';
               }
