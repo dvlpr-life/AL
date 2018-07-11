@@ -1,10 +1,10 @@
-page 50200 "Event Log Entries"
+page 50200 "SP_ Event Log Entries"
 {
     ApplicationArea = All;
-    CaptionML = ENU='Event Log Entries';  
-    Editable = false;  
+    CaptionML = ENU='Event Log Entries';
+    Editable = false;
     PageType = List;
-    SourceTable = "Event Log Entry";
+    SourceTable = "SP_ Event Log Entry";
     UsageCategory = Lists;
 
     layout
@@ -23,7 +23,7 @@ page 50200 "Event Log Entries"
                 }
                 field("No.";"No.")
                 {
-                    
+
                 }
                 field("Old Value";"Old Value")
                 {
@@ -36,7 +36,7 @@ page 50200 "Event Log Entries"
 
                 field("Mod Date/Time";"Mod Date/Time")
                 {
-                
+
                 }
 
                 field("User ID";"User ID")

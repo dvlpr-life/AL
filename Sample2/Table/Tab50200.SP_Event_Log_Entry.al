@@ -1,15 +1,15 @@
-table 50200 "Event Log Entry"
+table 50200 "SP_ Event Log Entry"
 {
 CaptionML = ENU='Event Log Entry';
-DrillDownPageId = 50200;
+DrillDownPageId = "SP_ Event Log Entries";
 DataPerCompany = false;
-LookupPageId = 50200;
+LookupPageId = "SP_ Event Log Entries";
 PasteIsValid = false;
 
     fields
     {
         field(1;"Entry No.";Integer)
-        {           
+        {
             CaptionML = ENU = 'Entry No.';
             Editable = false;
         }
@@ -34,7 +34,7 @@ PasteIsValid = false;
         }
         field(15;"Mod Date/Time";DateTime)
         {
-
+            CaptionML = ENU = 'Mod Date/Time';
         }
 
         field(20;"User ID";Text[50])
@@ -54,13 +54,13 @@ PasteIsValid = false;
             Clustered = false;
         }
     }
-    
+
     var
         ErrorMsg : TextConst ENU = 'Unable to perform Action';
 
     trigger OnInsert();
     var
-        EventLog : Record "Event Log Entry";
+        EventLog : Record "SP_ Event Log Entry";
     begin
         if EventLog.FindLast then
             "Entry No." := EventLog."Entry No." + 1
@@ -88,7 +88,7 @@ PasteIsValid = false;
 
     procedure InsertEntry(Type : Option; No : Code[20]; OldValue : Text[50]; NewValue : Text[50]);
     var
-        EventLog : Record 50200;
+        EventLog : Record "SP_ Event Log Entry";
     begin
         EventLog.Init;
         EventLog.Type := Type;

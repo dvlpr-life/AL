@@ -1,7 +1,8 @@
-page 50100 Classes
+page 50100 "SP_ Classes"
 {
+    CaptionML = ENU = 'Classes';
     PageType = List;
-    SourceTable = Class;
+    SourceTable = "SP_ Class";
     UsageCategory = Lists;
     ApplicationArea = All;
 
@@ -13,7 +14,7 @@ page 50100 Classes
             {
                 field(Code; Code)
                 {
-                   Visible = true; 
+                   Visible = true;
                 }
                 field(Description;Description)
                 {

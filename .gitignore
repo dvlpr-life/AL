@@ -1,2 +1,6 @@
 # Binary files
 *.app
+.alpackages
+
+# Editors
+.vscode

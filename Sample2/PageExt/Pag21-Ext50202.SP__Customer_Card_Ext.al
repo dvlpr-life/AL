@@ -1,4 +1,4 @@
-pageextension 50202 CustomerCardPageExt extends "Customer Card"
+pageextension 50202 "SP_ Customer Card Ext" extends "Customer Card"
 {
     layout
     {
@@ -8,10 +8,11 @@ pageextension 50202 CustomerCardPageExt extends "Customer Card"
     actions
     {
         addlast("&Customer")
-        {   
-            action("Show Log")
+        {
+            action("SP_ Show Log")
             {
                 ApplicationArea = All;
+                CaptionML = ENU = 'Show Log';
                 Image = Card;
                 Promoted = false;
                 RunObject = page 50200;
@@ -20,5 +21,5 @@ pageextension 50202 CustomerCardPageExt extends "Customer Card"
                 ToolTipML = ENU = 'Show the name change log entries.';
             }
         }
-    }    
+    }
 }

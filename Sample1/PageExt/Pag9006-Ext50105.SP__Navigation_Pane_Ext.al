@@ -1,4 +1,4 @@
-pageextension 50105 NavigationPaneExt extends "Order Processor Role Center"
+pageextension 50105 "SP_ Navigation Pane Ext" extends "Order Processor Role Center"
 {
 
     actions
@@ -7,9 +7,9 @@ pageextension 50105 NavigationPaneExt extends "Order Processor Role Center"
         {
             group("Extensions")
             {
-                action("Classes")
+                action("SP_ Classes")
                 {
-                    RunObject = page "Classes";
+                    RunObject = page "SP_ Classes";
                     ApplicationArea = All;
                 }
             }
