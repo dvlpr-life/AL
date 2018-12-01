@@ -1,6 +1,11 @@
 # Binary files
 *.app
 .alpackages
+.Ds_Store
+
+# Cache
+[Bb]in
+[Oo]bj
 
 # Editors
 .vscode
